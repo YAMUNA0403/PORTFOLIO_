@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body{
+            background: #081b29;
+            color:#ededed;
+            background-image: url(back3.jpg);
+            width: 1300px 660px;
+        }
+        .home{
+        height:100vh;
+        display:flex;
+        align-items:center;
+        padding:0 10%;
+    }
+    .home-content{
+        max-width: 600px;
+        margin:20px 0 40px;
+        line-height: 1.2;
+    }
+    .home-content h1{
+        font-size:56px;
+        font-weight: 700;
+    }
+    .home-content p{
+        font-size: 16px;
+    }
+    .home-content .btn-box{
+        display:flex;
+        justify-content:space-between
+    }
+
+        .btn-box a{
+            position:relative;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width:150px;
+            height:100%;
+            background: #00abf0;
+            border:2px solid #00abf0;
+            border-radius: 8px;
+            font-size: 19px;
+            color:#081b29;
+            text-decoration: none;
+            font-weight: 600;
+            letter-spacing: 1px;
+            z-index:1;
+            transition:hidden;
+            transition: .5s;
+        }
+        .btn-box a:hover{
+            color: #00abf0;
+        }
+        .btn-box a:nth-child(2){
+            background: transparent;
+            color:#00abf0;
+        }
+        .btn-box a:nth-child(2):hover{
+            color:#081b29;
+        }
+        .btn-box a::before{
+                content:'';
+                position:absolute;
+                top:0;
+                left:0;
+                width:0;
+                height:100%;
+                background:#081b29;
+                z-index:-1;
+                transition: .5s;
+        }
+        .btn-box a:hover::before{
+            width:100%;
+        }
+        .images{
+            width:50%;
+            height:45%;
+            position:absolute;
+            
+            right:100px;
+        }
+        .images img{
+            height: 100%;
+            position: absolute;
+            left:65%;
+            bottom:0;
+            transform:translateX(-50%);
+            transition: bottom 1s,left 1s;
+        }
+        
+    </style>
+</head>
+<body>
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi...!!</h1><br>
+            <p>  Welcome to my portfolio website! I am a passionate and dedicated student who is committed to learning, growing, and achieving my academic and personal goals. This page is designed to give you a glimpse into my journey as a student, showcasing my experiences, achievements, and aspirations. </p>
+            <p> Now let us Look into my skills and my projects...!</p>
+            <div class="btn-box">
+                <a href="portfolio.html" target="_blank">Let's Talk</a>
+            </div>
+        </div>
+        <div class="images">
+            <img src="graduation.jpg" class="girl">
+        </div>
+    </section>
+        
+</body>
+</html>
