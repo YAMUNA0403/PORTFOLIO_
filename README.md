@@ -5,7 +5,10 @@
 Welcome to the repository for my personal portfolio website. This website serves as a showcase of my skills, projects, and experiences in Web Development.
   
 <h2>LIVE DEMO</h2>
-Visit my portfolio website: https://mopuriyamuna.github.io/PORTFOLIO_/
+Visit my portfolio website:![port] (https://mopuriyamuna.github.io/PORTFOLIO_/)
+
+![port](https://github.com/YAMUNA0403/PORTFOLIO_/assets/155550143/3051b637-557b-4ece-a62b-b853732a00f2)
+
 
 <h3>Technologies Used</h3>
 HTML5: Structure and content markup.<br>
