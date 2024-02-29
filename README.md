@@ -6,7 +6,8 @@ Welcome to the repository for my personal portfolio website. This website serves
   
 <h2>LIVE DEMO</h2
 
-![port](https://github.com/YAMUNA0403/PORTFOLIO_/assets/155550143/3051b637-557b-4ece-a62b-b853732a00f2)
+![2024-02-29](https://github.com/YAMUNA0403/PORTFOLIO_/assets/155550143/ef68fe88-3684-4e17-a15f-ddc03533ea5a)
+
 
 
 <h3>Technologies Used</h3>
